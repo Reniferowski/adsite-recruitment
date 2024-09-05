@@ -2,8 +2,8 @@ import CarsCarousel from "./CarsCarousel";
 
 const Gallery = () => {
   return (
-    <div id="gallery" className="flex justify-center my-20">
-      <div className="w-[87.8%]">
+    <div id="gallery" className="flex flex-col items-end my-20">
+      <div className="w-[93.8%] ">
         <h4 className="text-xl text-details font-robotoCondensed">
           Prezentacja firmy
         </h4>
@@ -21,6 +21,7 @@ const Gallery = () => {
         </div>
         <CarsCarousel />
       </div>
+      <div className="flex justify-center mt-12 gap-2.5" id="bullets"></div>
     </div>
   );
 };
