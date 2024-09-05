@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <div id="hero" className="flex justify-center relative">
       <div className="w-5/6 mt-12 mb-20 md:mt-24 md:mb-16 lg:mt-32 lg:mb-[22.625rem] z-10">
-        <h1 className="w-11/12 text-5xl md:text-7xl font-bebas">
+        <h1 className="w-11/12 lg:w-2/3 xl:w-1/2 text-5xl md:text-7xl font-bebas">
           SPRZEDAJEMY SAMOCHODY Z EUROPY
         </h1>
         <p className="w-2/3 md:w-1/3 lg:w-[22.5%] mt-4 md:mt-8 font-robotoCondensed">

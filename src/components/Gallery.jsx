@@ -21,7 +21,7 @@ const Gallery = () => {
         </div>
         <CarsCarousel />
       </div>
-      <div className="flex justify-center mt-12 gap-2.5" id="bullets"></div>
+      <div className="flex justify-center mt-12" id="bullets"></div>
     </div>
   );
 };
