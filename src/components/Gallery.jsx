@@ -2,7 +2,7 @@ import CarsCarousel from "./CarsCarousel";
 
 const Gallery = () => {
   return (
-    <div id="gallery" className="flex flex-col items-end my-20">
+    <div id="gallery" className="flex flex-col items-end my-14 sm:my-20">
       <div className="w-[93.8%] ">
         <h4 className="text-xl text-details font-robotoCondensed">
           Prezentacja firmy

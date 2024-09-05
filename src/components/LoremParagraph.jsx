@@ -5,7 +5,7 @@ const LoremParagraph = () => {
   const [expand, setExpand] = useState(false);
 
   return (
-    <div className="w-1/2">
+    <div className="md:w-1/2">
       <h3 className="font-bebas text-2xl">
         Id nostrud enim esse consectetur in eu mollit fugiat aute. Velit nulla
         commodo.

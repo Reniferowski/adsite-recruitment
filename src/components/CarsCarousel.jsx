@@ -9,7 +9,7 @@ const CarsCarousel = () => {
   return (
     <>
       <Swiper
-        className="mt-20"
+        className="mt-10 sm:mt-20"
         spaceBetween={64}
         slidesPerView={"auto"}
         loop={true}
@@ -20,7 +20,7 @@ const CarsCarousel = () => {
         modules={[Pagination, Navigation]}
       >
         {cars.map((car, idx) => (
-          <SwiperSlide key={idx} className="w-[600px]">
+          <SwiperSlide key={idx} className="w-[75%] md:w-[600px]">
             <img src={car} alt="Gallery Car" />
           </SwiperSlide>
         ))}

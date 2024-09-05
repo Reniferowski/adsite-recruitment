@@ -6,6 +6,8 @@ import CarAudi from "./pexels_audi.png";
 import CarMaserati from "./pexels_maserati.png";
 import CarPorsche from "./pexels_porsche.png";
 import CarNight from "./pexels_night.png";
+import CloseIcon from "./close.svg";
+import MenuIcon from "./menu.svg";
 
 export {
   Logo,
@@ -16,4 +18,6 @@ export {
   CarMaserati,
   CarPorsche,
   CarNight,
+  CloseIcon,
+  MenuIcon,
 };

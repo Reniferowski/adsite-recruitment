@@ -2,7 +2,11 @@ import { TireMarks } from "../assets";
 
 const Tiremarks = () => {
   return (
-    <img className="absolute top-0 right-20" src={TireMarks} alt="Tire Marks" />
+    <img
+      className="absolute -top-32 left-20 lg:top-0 lg:right-20 lg:left-auto hidden md:block"
+      src={TireMarks}
+      alt="Tire Marks"
+    />
   );
 };
 
