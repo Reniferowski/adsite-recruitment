@@ -1,7 +1,4 @@
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
 import { CarAlfa, CarAudi, CarMaserati, CarNight, CarPorsche } from "../assets";
-import Slider from "react-slick";
 
 import "swiper/css";
 import "swiper/css/pagination";
