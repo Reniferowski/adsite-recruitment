@@ -1,8 +1,9 @@
-# React + Vite
+# Adsite Recruitment Task
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Task given for recruitment purposes. The task was about recreating design given on Figma using Tailwind CSS.
+I added React to give some interactivity like swipeable gallery or hamburger menu in navbar on smaller screens.
 
-Currently, two official plugins are available:
+Installation:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Install dependencies using "npm install" command
+- Run server using "npm run dev" command
