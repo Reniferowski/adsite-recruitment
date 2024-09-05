@@ -1,4 +1,5 @@
 import { CarsHero } from "../assets";
+import Button from "./Button";
 
 const Hero = () => {
   return (
@@ -11,12 +12,8 @@ const Hero = () => {
           Kup komfortowy pojazd, aby każda podróż była wyjątkowym przeżyciem.
         </p>
         <div className="mt-12 flex font-robotoFlex font-semibold gap-6">
-          <button className="text-whiteSmoke bg-details px-4 py-2 sm:px-6 sm:py-3 rounded-lg hover:shadow-xl transition duration-300">
-            <a href="#gallery">Zobacz zdjęcia</a>
-          </button>
-          <button className="text-whiteSmoke bg-details px-4 py-2 sm:px-6 sm:py-3 lg:bg-transparent lg:text-details border border-details  rounded-lg hover:shadow-xl hover:bg-details hover:text-white hover:opacity-65 transition duration-300">
-            Zadzwoń do nas
-          </button>
+          <Button href="#gallery">Zobacz zdjęcia</Button>
+          <Button secondary>Zadzwoń do nas</Button>
         </div>
       </div>
       <img
